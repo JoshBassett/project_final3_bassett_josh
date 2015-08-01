@@ -8,6 +8,7 @@
     <meta name="keywords" content="Star Wars, Mos Eisley, Cantina, Tatooine, Chalmun, Wookie, Bar, Drinks, Spaceport, Wuher, Figrin D'an, Bith">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/audioplayer.css">
 </head>
 <body>
     <header>
@@ -45,7 +46,7 @@
             <div id="menu-button">
                 <a href="#">Bar Menu</a>
             </div>
-        </article>
+        </aside>
 
         <aside id="music">
             <h2 class="live"><span id="live-span">Live</span> this month:</h2>
@@ -56,6 +57,7 @@
                     </figcaption>
             </figure>
             <p id="schedule">Thursday Thru Sunday</p>
+            <audio src="audio/Cantina-Band-1.mp3" preload="auto" controls></audio>
         </aside>
     </section>
     <section id="rules">
@@ -77,6 +79,9 @@
     <footer>
         <p>Chalmun's Cantina | 1977 Jundland Way | Moes Eisley Spaceport | Tatooine</p>
     </footer>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/audioplayer.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
