@@ -141,7 +141,7 @@ footer p {
 #content h2 {
     margin-bottom: -1%;
 }
-#history {
+#history, .menu-welcome {
     margin: auto;
     background-color: #E5B25D;
     background-image: url(../img/tatooine-building-opq.png);
@@ -149,13 +149,19 @@ footer p {
     background-position: 50%;
     margin-top: 2%;
 }
-#history p, #history h2 {
+#history p, #history h2, .menu-welcome p, .menu-welcome h2 {
     margin:auto;
     width: 80%;
     padding-top: 2%
 }
-#history p {
+#history p, .menu-welcome p {
     padding-bottom: 2%;
+}
+#menu ul li {
+    list-style-type: none;
+    margin-left: 5%;
+    width: 80%;
+    padding-bottom: 1%;
 }
 #bar-menu {
     width: 80%;
