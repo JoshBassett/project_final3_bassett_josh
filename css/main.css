@@ -288,6 +288,12 @@ footer p {
     #bar-menu li {
         padding-top: 1%;
     }
+    #drink-menu {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    background-color: white;
+}
     #music {
         width:60%;
         float:right;
