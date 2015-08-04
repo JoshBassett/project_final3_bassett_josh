@@ -40,13 +40,14 @@ a {
 header {
     background-color: #264653;
 }
-#logo {
-    overflow: hidden;
+.logo {
+    padding-bottom: 10%;
 }
-#logo img{
+.logo img{
     width:80%;
     display: block;
     margin: auto;
+    background-color: #264653;
 }
 nav ul {
     padding: 0px 0px 0px 0px;
@@ -205,9 +206,13 @@ footer p {
 
 /* Media Queries */
 @media (min-width: 512px) {
-    #logo img{
+    .logo img{
         width:50%;
     }
+    .logo {
+    overflow: hidden;
+    padding-bottom: 0;
+}
     #menu-button {
         width: 50%;
         margin: auto;
@@ -237,7 +242,7 @@ footer p {
     }
 }
 @media (min-width: 882px) {
-    #logo img{
+    .logo img{
         max-width: 350px;
         padding-left: 10%;
         margin: inherit;
