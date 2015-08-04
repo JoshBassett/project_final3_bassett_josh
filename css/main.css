@@ -6,13 +6,18 @@ body {
     color: #3D3231;
     text-align: center;
 }
-@font-face {
+/*@font-face {
     font-family: "seedy-motel";
     src: url(../font/seedy-motel.otf);
+}*/
+@font-face {
+    font-family: "cantina-aurabesh";
+    src: url(../font/cantina-aurabesh.otf);
 }
 h1, h2, h3 {
-    font-family: "seedy-motel";
+    font-family: "impact";
     color: #3D3231;
+    text-transform: uppercase;
 }
 h1 {
     font-size: 3em;
@@ -20,7 +25,6 @@ h1 {
     padding: initial;
     margin-top: auto;
     margin-bottom: auto;
-
 }
 h2 {
     font-size: 2em;
@@ -44,7 +48,6 @@ header {
     display: block;
     margin: auto;
 }
-
 nav ul {
     padding: 0px 0px 0px 0px;
     list-style: none;
@@ -73,6 +76,7 @@ nav a:hover, nav .current_page_item a {
 }
 #content h2 {
     margin-top: 0%;
+    margin-bottom: -1%
 }
 #menu-button {
     background: #6f98b3;
@@ -138,9 +142,6 @@ footer p {
     margin: auto;
     font-size: small;
 }
-#content h2 {
-    margin-bottom: -1%;
-}
 #history, .menu-welcome {
     margin: auto;
     background-color: #E5B25D;
@@ -148,6 +149,11 @@ footer p {
     background-size: cover;
     background-position: 50%;
     margin-top: 2%;
+}
+.credit {
+    font-family: "cantina-aurabesh";
+    color:#B57632;
+    font-size: 1em;
 }
 #history p, #history h2, .menu-welcome p, .menu-welcome h2 {
     margin:auto;
