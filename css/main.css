@@ -198,6 +198,10 @@ footer p {
     font-weight: 600;
     font-size: larger;
 }
+#image-gallery img {
+    max-width: 15%;
+    padding: 1%;
+}
 
 /* Media Queries */
 @media (min-width: 512px) {
