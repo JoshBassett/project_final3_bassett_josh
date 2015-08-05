@@ -164,12 +164,16 @@ footer p {
 .welcome-message p, .menu-welcome p {
     padding-bottom: 2%;
 }
+#menu {
+    margin-top: 5%;
+}
 #menu ul li {
     list-style-type: none;
-    margin-left: 5%;
-    width: 80%;
-    padding-bottom: 1%;
     font-size: .8em;
+}
+#menu ul {
+    width: 80%;
+    margin: auto;
 }
 #bar-menu {
     width: 80%;
@@ -205,6 +209,13 @@ footer p {
 #image-gallery img {
     max-width: 15%;
     padding: 1%;
+}
+.emphatic {
+    text-decoration: underline;
+    font-weight: 900;
+}
+ul .brews, ul .concoctions, ul .liquors, ul .apps {
+    padding-left: 0;
 }
 
 /* Media Queries */
@@ -345,7 +356,23 @@ footer p {
         text-align: left;
     }
     #menu h2 {
-        padding-left: 8%;
+        padding-left: 0%;
+    }
+    #menu p {
+        margin-bottom: 0;
+    }
+    #menu ul {
+        padding-left: 0;
+        padding-right: 1%;
+        width: 48%;
+    }
+    .brews, .liquors {
+        float: left;
+        width: 49%;
+    }
+    .concoctions, .refresh {
+        float: right;
+        width: 49%;
     }
 }
 @media (min-width: 1200px) {
