@@ -135,8 +135,9 @@ footer {
     background-color: #264653;
     color: #E3E5D7;
     font-family: "Halogen-Thin";
-    padding-top:4%;
-    padding-bottom: 2%;
+    padding:2%;
+    margin-top: -2%;
+    clear: both;
 }
 footer p {
     width: 80%;
@@ -214,8 +215,8 @@ footer p {
     text-decoration: underline;
     font-weight: 900;
 }
-ul .brews, ul .concoctions, ul .liquors, ul .apps {
-    padding-left: 0;
+.brews, .concoctions, .liquors, .apps {
+    padding-bottom: 2%;
 }
 
 /* Media Queries */
