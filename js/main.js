@@ -1,4 +1,4 @@
-$( function() { $( 'audio' ).audioPlayer(); } );
 jQuery(document).ready(function () {
+    $( 'audio' ).audioPlayer();
     jQuery('header nav').meanmenu();
 });
