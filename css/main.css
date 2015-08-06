@@ -251,6 +251,13 @@ font-weight: 800;
 .brews, .concoctions, .liquors, .apps {
     padding-bottom: 2%;
 }
+#rule-img-wrap {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+
 /* Media Queries */
 @media (min-width: 512px) {
     .logo img{
@@ -291,6 +298,7 @@ font-weight: 800;
     #rules {
         clear:both;
     }
+    #rules img {}
 }
 @media (min-width: 600px) {
     .yelp {
