@@ -241,8 +241,11 @@ font-weight: 800;
     font-size: larger;
 }
 #image-gallery img {
-    max-width: 15%;
+    max-width: 40%;
     padding: 1%;
+}
+#drinks {
+    padding-bottom: 12%;
 }
 .emphatic {
     text-decoration: underline;
@@ -430,7 +433,9 @@ font-weight: 800;
         float: right;
         width: 49%;
     }
-}
+    #drinks {
+        margin-bottom: 15%;
+    }
 @media (min-width: 1200px) {
     .content, #rules {
         max-width:960px;
